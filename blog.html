@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Desarrollo web">
+    <meta name="description" content="Portafolio de desarrollo web">
+    <meta name="keywords" content="HTML,CSS,JavaScript,React">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo web</title>
+
+<!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="foto.p.jpg">
+
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--iconos de boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<!--CSS-->
+<link href="styles.css" rel="stylesheet">
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&dislay=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="ANDREAMDR.jpg" width="50" alt="Logo de la página web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#yo">yo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#amigos">amigos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#familia">familia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gustos">gustos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!--Section Hero-->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="andy.34.jpg" alt="Foto de andy">          
+            <h1> Hola mi nombre es andrea medel del rosario</h1>
+            <h2> estudiante de preparatoria</h2>
+            <!--<h3> ".typeString(' "“No cuentes los días, haz que los días cuenten.”<br> ')
+"</h3>-->
+            
+            <!--animación con JS -->
+            <h2 class="text-primary mb-4" id="typewriter"></h2>
+        </div>
+        <div class="hero-inferior">
+          <img class="hero-inferior-imagen img-fluid" src="yo,2.jpg" alt="WEB HTML.">
+        </div>
+    </section>
+
+      <!--Sobre mi-->
+<section id="yop" class="que es necesario saber de mi ">
+    <div class="Contenedor">
+        <h2 class="Seccion-titulo"><center>mi personalidad</center> </h2><br>
+        <p class="seccion-texto"> Soy una persona muy timida pero creeme que te caere bien cuando me conozcas</p>
+    </div>
+</section>
+
+<!--Experiencia-->
+<section class="Experiencia seccion-clara">
+    <div class="container text-center">
+        <div class="row">
+        <!--Desarrollo de experiencias-->
+        <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">lo principal es saber que no me gusta que me digan andrea</p>
+            <p>de preferencia andy o por mi apellido que seria medel.</p>
+            <div class="badges-contenedor">
+                <span class="badge text-bg-primary">que estudio</span>
+                <span class="badge text-bg-primary">que me gusta</span>
+                <span class="badge text-bg-primary">deportes favoritos</span>
+                <span class="badge text-bg-primary">la carrera que me gustaria estiar</span>
+            </div>
+        </div>
+
+    <!--Articulos-->
+    <div class="columna col-12 col-md-4">
+    <i class=" bi bi-laptop"></i>
+    <p class="experiencia-titulo"></p>
+    <p>les hablare sobre mi familia y mis mejores amigos.</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">gustos</span>
+        <span class="badge text-bg-primary">anectotas</span>
+        <span class="badge text-bg-primary">que es lo que mas quiero de ellos</span>
+    </div>
+    </div>
+
+<!--Estudiante-->
+<div class="columna col-12 col-md-4">
+    <i class="bi bi-laptop"></i>
+    <p class="experiencia-titulo">artistas favoritos</p>
+    <p>quienes son</p>
+    <p>como los conoci</p>
+    <p>que es lo que mas me gusta</p>
+    <div class="badges-contenedor">
+        <span class="badge text-bg-primary">canciones</span>
+        <span class="badge text-bg-primary">peliculas</span>
+        <span class="badge text-bg-primary">series</span>
+        
+    </div>
+</div>
+    </div>
+    </div>
+</section>
+
+            <!-- mi personalidad -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">lo mas importante sobre mi</h2>
+        <h3 class="seccion-descripcion">Esto es un poco de mi ...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+          <div class="row">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="niña-japonesa.gif" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>mi personalidad</p>
+                  <div class="iconos-contenedor">
+                    <a href="niña-japonesa.gif" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="personalidad.mdr.jpg" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="minions.gif" alt="Proyecto 2">
+                <div class="overlay">
+                  <p>amigos</p>
+                  <div class="iconos-contenedor">
+                    <a href="Mi mejores amigos (4).png" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="Presentacion encuentra tu creatividad papel azul.mp4" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 3 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="gif.family.gif" alt="Proyecto 3">
+                <div class="overlay">
+                  <p>familia</p>
+                  <div class="iconos-contenedor">
+                    <a href="papas.png" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="WhatsApp Video 2023-04-29 at 14.02.07 (1).mp4" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 4 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto4">
+                <img src="abogado.gif" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>lo que quiero estudiar </p>
+                  <div class="iconos-contenedor">
+                    <a href="WhatsApp Video 2023-04-29 at 14.02.07 (1).mp4" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="WhatsApp Video 2023-04-29 at 14.02.07 (1).mp4" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 5 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="musica.gif" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>artista favorito</p>
+                  <div class="iconos-contenedor">
+                    <a href="WhatsApp Video 2023-04-29 at 14.32.46.mp4" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=H1ASw2INYkI" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Proyecto 6 -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="proyecto">
+                <img src="tony.gif" alt="Proyecto 1">
+                <div class="overlay">
+                  <p>niños mas impotantes para mi </p>
+                  <div class="iconos-contenedor">
+                    <a href="image.png" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-github"></i>
+                    </a>
+                    <a href="897.jpg" target="_blank" rel="noopener noreferrer">
+                      <i class="bi bi-laptop"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+  
+      <!-- Articulos -->
+      <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Artículos</h2>
+        <div class="card">
+          <div class="card-header">
+            Más recientes
+          </div>
+          <ul class="list-group list-group-flush">
+            <a href="https://www.youtube.com/watch?v=YUcC4uN5Mng" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                cancion favorita
+              </li>
+            </a>
+            <a href="https://cinepremiere.com.mx/rapidos-y-furiosos-10-pelicula-trailer-estreno.html" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                pelicula favorita
+              </li>
+            </a>
+            <a href="https://www.recetasnestle.com.mx/recetas/enchiladas-verdes-cremosas" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                comida favorita
+              </li>
+            </a>
+            <a href="https://www.significados.com/negro/" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                 color favorito 
+              </li>
+            </a>
+            <a href="https://programadestinosmexico.com/pueblos-magicos/malinalco.html" target="_blank" rel="noopener noreferrer">
+              <li class="list-group-item">
+                lugar que me gusta visitar
+              </li>
+            </a>
+          </ul>
+        </div>
+        <a href="https://www.facebook.com/profile.php?id=100080166741803&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+          <button type="button" class="btn btn-info">
+            MÁS INFORMACIÓN
+            <i class="bi bi-arrow-right-circle-fill"></i>
+          </button>
+        </a>
+      </section>
+
+<!--Testimonios--><!--Descripcion-->
+<section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Descripcion</h2>
+    <h3 class="seccion-descripcion">Descripcion de proyectos</h3>
+
+<!--Carrusel--> <!--Cambiar las fotos y alt-->
+ <!-- Carrusel -->
+ <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="andy2.jpg" alt="foto de andy">
+          <p class="testimonio-texto">Para ser la persona perfecta necesitas quererte a ti mismo</p>
+          <div class="testimonio-info">
+            <p class="cliente">andrea medel del rosario</p>
+            <p class="cargo"> estudiante</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="andy3.jpg" alt="Foto de andy">
+          <p class="testimonio-texto">estar en varios equipos de futbool es muy bonito para mi</p>
+          <div class="testimonio-info">
+            <p class="cliente">andrea</p>
+            <p class="cargo">futbolista</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="andy4.jpg" alt="Foto de andy">
+          <p class="testimonio-texto">tengo logros acaemicos pero mi pasion mas grande es esta por el momento</p>
+          <div class="testimonio-info">
+            <p class="cliente">andy</p>
+            <p class="cargo">futnolista</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+</section>
+
+<!--contacto-->
+<section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+            <div class="row">
+                <div class="col-12 col-md-4 seccion-titulo">
+                    ¡Hablemos!
+                </div>
+                <div class="col-12 col-md-4 descripcion">
+                    ¡Contactame para saber más!
+                </div>
+                <div class="col-12 col-md-4">
+                    <a href="https://www.facebook.com/profile.php?id=100080166741803&mibextid=ZbWKwL">
+                        <button type="button">
+                            Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                        </button>
+                    </a>
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+
+<!--pie de pagina (footer)--><!--Cambiar imagen de logo-->
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="andy.6.webp" alt="logo del portafolio">
+    <p class="footer-texto text-center">Aprende a ser feliz</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://x.com/Andreamede62086?t=mPleZ0WK8zpYZhfm8iF9EA&s=08" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-twitter"></i>
+  
+    <a href="https://www.facebook.com/profile.php?id=100080166741803&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-facebook"></i>
+    </a>
+    </div>
+    <div class="derechos-de-autor">Creado por andrea medel</div>
+</footer>
+
+<script src="https://cdn.jsdelivhttps://www.facebook.com/profile.php?id=100080166741803&mibextid=ZbWKwLr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="main.js"></script>
+
+
+</body>
+</html>
